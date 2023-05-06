@@ -1,0 +1,127 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter analyze
+
+## exception
+
+_Exception: Exception: analysis server exited with code 254 and output:
+[stderr] ../../../Developer/flutter/bin/cache/dart-sdk/bin/snapshots/analysis_server.dart.snapshot: Error: Error when reading '../../../Developer/flutter/bin/cache/dart-sdk/bin/snapshots/analysis_server.dart.snapshot': No such file or directory
+
+```
+```
+
+## flutter doctor
+
+```
+[33m[!][39m Flutter (Channel stable, 3.7.6, on macOS 13.2.1 22D68 darwin-arm64, locale
+    en-IN)
+    [32m•[39m Flutter version 3.7.6 on channel stable at
+      /Users/ShresthS/Developer/flutter
+    [33m![39m Warning: `dart` on your path resolves to
+      /opt/homebrew/Cellar/dart/2.18.7/libexec/bin/dart, which is not inside
+      your current Flutter SDK checkout at /Users/ShresthS/Developer/flutter.
+      Consider adding /Users/ShresthS/Developer/flutter/bin to the front of
+      your path.
+    [32m•[39m Upstream repository https://github.com/flutter/flutter.git
+    [32m•[39m Framework revision 12cb4eb7a0 (6 days ago), 2023-03-01 10:29:26 -0800
+    [32m•[39m Engine revision ada363ee93
+    [32m•[39m Dart version 2.19.3
+    [32m•[39m DevTools version 2.20.1
+    [32m•[39m If those were intentional, you can disregard the above warnings; however
+      it is recommended to use "git" directly to perform update checks and
+      upgrades.
+
+[33m[!][39m Android toolchain - develop for Android devices (Android SDK version
+    33.0.1)
+    [32m•[39m Android SDK at /Users/ShresthS/Library/Android/sdk
+    [32m•[39m Platform android-33, build-tools 33.0.1
+    [31m✗[39m Android SDK file not found:
+      /Users/ShresthS/Library/Android/sdk/platforms/android-33/android.jar.
+    [32m•[39m Try re-installing or updating your Android SDK,
+      visit https://flutter.dev/docs/get-started/install/macos#android-setup
+      for detailed instructions.
+
+[32m[✓][39m Xcode - develop for iOS and macOS (Xcode 14.2)
+    [32m•[39m Xcode at /Applications/Xcode.app/Contents/Developer
+    [32m•[39m Build 14C18
+    [32m•[39m CocoaPods version 1.11.2
+
+[32m[✓][39m Chrome - develop for the web
+    [32m•[39m Chrome at /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+
+[32m[✓][39m Android Studio (version 2022.1)
+    [32m•[39m Android Studio at /Applications/Android Studio.app/Contents
+    [32m•[39m Flutter plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/9212-flutter
+    [32m•[39m Dart plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/6351-dart
+    [32m•[39m Java version OpenJDK Runtime Environment (build
+      11.0.15+0-b2043.56-8887301)
+
+[32m[✓][39m Android Studio (version 2022.1)
+    [32m•[39m Android Studio at /Users/ShresthS/Library/Application
+      Support/JetBrains/Toolbox/apps/AndroidStudio/ch-0/221.6008.13.2211.96193
+      90/Android Studio.app/Contents
+    [32m•[39m Flutter plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/9212-flutter
+    [32m•[39m Dart plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/6351-dart
+    [32m•[39m Java version OpenJDK Runtime Environment (build
+      11.0.15+0-b2043.56-8887301)
+
+[32m[✓][39m Android Studio (version 2022.1)
+    [32m•[39m Android Studio at /Users/ShresthS/Library/Application
+      Support/JetBrains/Toolbox/apps/AndroidStudio/ch-0/221.6008.13.2211.95144
+      43/Android Studio.app/Contents
+    [32m•[39m Flutter plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/9212-flutter
+    [32m•[39m Dart plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/6351-dart
+    [32m•[39m Java version OpenJDK Runtime Environment (build
+      11.0.15+0-b2043.56-8887301)
+
+[32m[✓][39m IntelliJ IDEA Community Edition (version 2022.2.3)
+    [32m•[39m IntelliJ at /Applications/IntelliJ IDEA CE.app
+    [32m•[39m Flutter plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/9212-flutter
+    [32m•[39m Dart plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/6351-dart
+
+[32m[✓][39m IntelliJ IDEA Community Edition (version 2022.3.1)
+    [32m•[39m IntelliJ at /Users/ShresthS/Library/Application
+      Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/223.8214.52/IntelliJ IDEA
+      CE.app
+    [32m•[39m Flutter plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/9212-flutter
+    [32m•[39m Dart plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/6351-dart
+
+[32m[✓][39m IntelliJ IDEA Community Edition (version 2022.3.2)
+    [32m•[39m IntelliJ at /Users/ShresthS/Library/Application
+      Support/JetBrains/Toolbox/apps/IDEA-C/ch-0/223.8617.56/IntelliJ IDEA
+      CE.app
+    [32m•[39m Flutter plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/9212-flutter
+    [32m•[39m Dart plugin can be installed from:
+      🔨 https://plugins.jetbrains.com/plugin/6351-dart
+
+[32m[✓][39m VS Code (version 1.76.0)
+    [32m•[39m VS Code at /Applications/Visual Studio Code.app/Contents
+    [32m•[39m Flutter extension version 3.60.0
+
+[32m[✓][39m Connected device (3 available)
+    [32m•[39m iPhone 12 (mobile) • 00008101-000A6D612481401E • ios            • iOS
+      16.3 20D47
+    [32m•[39m macOS (desktop)    • macos                     • darwin-arm64   • macOS
+      13.2.1 22D68 darwin-arm64
+    [32m•[39m Chrome (web)       • chrome                    • web-javascript • Google
+      Chrome 110.0.5481.177
+
+[32m[✓][39m HTTP Host Availability
+    [32m•[39m All required HTTP hosts are available
+
+[33m![39m Doctor found issues in 2 categories.
+```
